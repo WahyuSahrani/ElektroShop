@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LapShop</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/custom.css">
+	<script type="text/javascript" src="bootstrap-3.3.4-dist/js/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap-3.3.4-dist/js/custom.js"></script>
+</head>
+<body>
+<!-- navbar fixed atas -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed navbar-default" data-toggle="collapse" data-target="#navbar" aria-expended="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a href="#" class="navbar-brand"><span class="glyphicon glyphicon glyphicon-shopping-cart"></span>Rp. 10.000</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<form class="navbar-form navbar-left">
+				<input type="text" name="" class="form-control" placeholder="search...">
+			</form>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="active"><a href="#">Home</a></li>
+				<li><a href="#">Best Produk</a></li>
+				<li><a href="#">How to buy</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Member <span class="caret"></span></a>
+					<ul class="dropdown-menu" role="menu">
+						<li><a href="#">Login</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>		
+	</div>
+</nav>
+<!-- end off navbar fixed atas-->
+
+<!-- CONTAINER -->
+<div class="container">
+
+	<!-- baris pertama -->
+	<div class="row">
+		<div class="col-sm-12">
+			<img src="gherus.PNG" class="img-responsive">
+		</div>
+	</div>
+	<!-- akhir baris pertama -->
+
+	<!-- baris kedua -->
+	<div class="row">
+		<div class="col-sm-8 col-xs-12">
+			<div class="panel panel-success">
+				<div class="panel-heading"><span class="glyphicon glyphicon-star-empty"></span>Our Produk</div>
+				<div class="panel-body">
+				<!-- bootstrap carousel -->
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- carousel indicators -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						
+					</ol>
+					<!-- wrapper for carousel items -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="img/slide1.jpg">
+							<div class="carousel-caption">
+								
+							</div>
+						</div>
+						<div class="item">
+							<img src="img/slide2.jpg">
+							<div class="carousel-caption">
+								
+							</div>
+						</div>
+						<!-- <div class="item">
+							<img src="img/3.jpg">
+							<div class="carousel-caption">
+							
+							</div>
+						</div> -->
+					</div>
+					<!-- Carousel Controls -->
+					<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a class="carousel-control right" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+				</div>
+				<!-- end bootstrap corousel -->
+				</div> <!-- body panel pertama akhirnya -->
+			</div>
+		</div>
+	
+	<div class="col-sm-4 col-xs-12">
+	<div class="panel panel-success">
+		<div class="panel-heading"><span class="glyphicon glyphicon-shopping-cart"></span> Cart !</div>
+		<div class="panel-body">
+			<table class="table">
+				<tr class="success">
+					<th>Barang </th>
+					<th>Jumlah </th>
+				</tr>
+				<tr>
+					<td>Krupuk </td>
+					<td><span class="badge badge-success">2</span></td>
+				</tr>
+				<tr>
+					<td>Nang-nginang </td>
+					<td><span class="badge badge-success">5</span></td>
+				</tr>
+				<tr>
+					<td>Ghebuk </td>
+					<td><span class="badge badge-success">3</span></td>
+				</tr>
+				<tr>
+					<td class="success"></td>
+					<td class="success"><span class="label label-success">Rp. 10.000 </span></td>
+				</tr>
+			</table> 
+			<button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#myModal"> View Cart </button>
+			<button type="button" class="btn btn-warning btn-sm"> Check Out </button>
+		</div>
+	</div>	
+	</div>
+</div></div><br>
+<!-- akhir baris kedua -->
+
+<!-- baris ketiga -->
+<div class="row">
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>ASUS Zenbook Flip UX360UAK-DQ239T - Grey</h4>
+					<p>Intel Core i7-7500U, 16GB DDR3, 512GB SSD, VGA Intel HD Grapichs</p>
+					<p>Rp. 18.499.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/1.jpg" class="img-responsive">
+			</div>
+		</div>		
+	</div> 
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>DELL Business Notebook Vostro 3468 (Core i3-7100U)</h4>
+					<p>Intel Core i3-7100U, VGA Intel HD Grapichs</p>
+					<p>Rp. 7.099.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/2.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>DELL Inspiron 14 5468 [INS14.5468.I7]</h4>
+					<p>Intel Core I7-7500U, 8GB DDR4</p>
+					<p>Rp. 1.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/3.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>HP Notebook 14-an002AX</h4>
+					<p>Intel Core i3-7100U, VGA Intel HD Grapichs, Wifi, 14 Inch HD, Win 10 Home SL</p>
+					<p>Rp. 5.099.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/4.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+</div><br>
+	<!-- akhir baris ketiga -->
+
+	<!-- baris ke empat -->
+	<div class="row">
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>HP Business Probook 440 G2</h4>
+					<p>Intel Dual Core M-5Y51, 8GB DDR3L, 256GB SSD, Bluetooth</p>
+					<p>Rp. 9.500.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/5.jpg" class="img-responsive">
+			</div>
+		</div>		
+	</div> 
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>HP EliteBook Folio 1020 G1 [N0C50PA]</h4>
+					<p>Intel Dual Core M-5Y51, 8GB DDR3L, 256GB SSD, Bluetooth</p>
+					<p>Rp. 20.549.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/6.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>Krepek Tete</h4>
+					<p>Ghebuk is the most popular food from madura, it is a parotan kelapa dicampur tepung dan sebagainya</p>
+					<p>Rp. 1.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/1.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+	<div class="col-xs-6 col-sm-3">
+		<div id="hover-cap-4col">
+			<div class="thumbnail">
+				<div class="caption">
+					<h4>APPLE MacBook [MJY42ID/A] - Space Grey</h4>
+					<p>Intel Dual Core 1.2GHz, 8GB DDR3, 512GB-FS, WiFi, VGA Intel HD Grapichs 5330</p>
+					<p>Rp. 24.790.000
+						<button type="button" class="btn btn-warning btn-sm notif">Beli</button>
+						<button type="button" class="btn btn-success btn-sm">Detail</button>
+					</p>
+				</div>
+				<img src="img/8.jpg" class="img-responsive">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- baris ke lima -->
+	<!-- <div class="row">
+		<div class="col-sm-12">
+			<div class="jumbotron tengah">
+				<h1>Get Update!</h1>
+				<p class="lead">
+					Dapatkan pemberitahuan update produk-produk terbaru kami, dengan berlangganan via email dibawah ini, dan dapatkan diskon menarik lainnya!
+				</p>
+				<form>
+					<div class="form-group">
+						<input type="email" name="" class="form-control" id="email" placeholder="Enter Email">
+					</div>
+					<div class="form-group">
+						<button type="button" class="btn btn-success btn-lg">Subscribe </button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- baris ke enam -->
+	<div class="row">
+		
+		<div class="col-sm-3 col-xs-6">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">About Us</h3>
+				</div>
+				<div class="panel-body">
+					<ul>
+						<li><span class="glyphicon glyphicon-th-large"></span> PT.Gherus</li>
+						<li><span class="glyphicon glyphicon-road"></span> Jl. Kemasan Kotagede</li>
+						<li><span class="glyphicon glyphicon-phone-alt"></span> 085821334750</li>
+						<li><span class="glyphicon glyphicon-phone-alt"></span> fb/wahyu</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-3 col-xs-6">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<h3 class="panel-title">About Us</h3>
+				</div>
+				<div class="panel-body">
+					<ul>
+						<li><span class="glyphicon glyphicon-th-large"></span> PT.Gherus</li>
+						<li><span class="glyphicon glyphicon-road"></span> Jl. Kemasan Kotagede</li>
+						<li><span class="glyphicon glyphicon-phone-alt"></span> 085821334750</li>
+						<li><span class="glyphicon glyphicon-phone-alt"></span> fb/wahyu</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- baris ke enam Payment Method -->
+	<div class="row">
+		<div class="col-sm-12">
+			<img src="img/payment.jpg" class="img-responsive pull-right">
+		</div>
+	</div>
+
+	<!-- modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog">
+			<!-- Modal Konten -->
+			<div class="modal-content">
+			    <div class="modal-header bg-success">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 class="modal-title">Keranjang Belanja Anda !</h4>
+				</div>
+				<div class="modal-body">
+					<table class="table">
+						<thead>
+							<tr>
+								<th>Ghebuk</th>
+								<th>Harga</th>
+								<th>Jumlah</th>
+								<th>Optional</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Krepek Tetter</td>
+								<td>12.000</td>
+								<td>12</td>
+								<td>
+									<a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-minus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-remove-sign"></span></a>
+								</td>
+							</tr>
+							<tr>
+								<td>Kocor</td>
+								<td>12.000</td>
+								<td>12</td>
+								<td>
+									<a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-minus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-remove-sign"></span></a>
+								</td>
+							</tr>
+							<tr>
+								<td>Nang-nginang</td>
+								<td>12.000</td>
+								<td>12</td>
+								<td>
+									<a href="#"><span class="glyphicon glyphicon-plus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-minus-sign"></span></a>
+									<a href="#"><span class="glyphicon glyphicon-remove-sign"></span></a>
+								</td>
+							</tr>
+							<tr>
+								<th>Total</th>
+								<th>36.000</th>
+								<th>36</th>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="modal-footer bg-success">
+					<button type="button" class="btn btn-warning" data-dismiss="modal">Check Out</button>
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Tutup</button>
+				</div>				
+			</div>
+		</div>
+	</div>
+<!-- akhir dari  container -->
+ <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+    .then(function(registration) {
+      console.log('Registered:', registration);
+    })
+    .catch(function(error) {
+      console.log('Registration failed: ', error);
+    });
+  }
+  </script>
+</body>
+</html>
