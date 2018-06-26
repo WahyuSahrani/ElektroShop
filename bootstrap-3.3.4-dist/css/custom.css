@@ -1,0 +1,74 @@
+* {
+margin:0;
+padding:0;
+}
+h3,h4{
+color:white;
+font-weight:bold;
+}
+body {
+	padding-top:70px;
+	}
+#hover-cap-4col .thumbnail {
+	position:relative;
+	overflow:hidden;	
+}
+.caption {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	width: 100%;
+	height: 100%;
+	color:#fff !important;
+}
+.item img{
+width:80%;
+max-height:250px;
+margin-right:auto;
+margin-left:auto;
+}
+.tengah {
+margin-top:20px;
+}
+.kiri {
+float:left;
+background-color:red;
+}
+.col-sm-3 img {
+min-height:200px;
+}
+.carousel-inner img{
+height:100%;
+width:100%;
+}
+.sembunyi {
+	position:fixed;
+	left:10px;
+	top:70px;
+	z-index:1000;
+	display:none;
+}
+.tengah {
+text-align:center;
+background-color:#dcedc8;
+}
+#email {
+width:50%;
+margin-left:auto;
+margin-right:auto;
+}
+.bg {
+background-color:#000;
+color:white;
+}
+ul li {
+list-style:none;
+font-weight:bold;
+}
+@media screen and (max-width:460px){
+	p {
+	font-size:12px;
+	}
+}
