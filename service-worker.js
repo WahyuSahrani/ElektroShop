@@ -5,6 +5,10 @@
   var urlsToCache = [
     '.',
     'index.html',
+    'detail1.html',
+    'detail2.html',
+    'detail3.html',
+    'detail4.html',
     'bootstrap-3.3.4-dist/css/bootstrap.css',
     'bootstrap-3.3.4-dist/css/custom.css',
     'bootstrap-3.3.4-dist/js/bootstrap.js',
