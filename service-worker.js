@@ -54,5 +54,23 @@
       // You could return a custom offline 404 page here
     });
   }
+  
+  self.addEventListener('activate', function(event) {
+    console.log('Activating new service worker...');
+
+    var cacheWhitelist = [staticCacheName];
+
+    event.waitUntil(
+      caches.keys().then(function(cacheNames) {
+        return Promise.all(
+          cacheNames.map(function(cacheName) {
+            if (cacheWhitelist.indexOf(cacheName) === -1) {
+              return caches.delete(cacheName);
+            }
+          })
+        );
+      })
+    );
+  });
 
 })();
